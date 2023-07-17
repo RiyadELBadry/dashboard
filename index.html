@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Responsive Admin Dashboard Using Html and css And javascript</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Start Aside -->
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="assets//images/logo.png" alt="">
+                    <h2>Riyad <span>Ayman</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <i class="uil uil-times"></i>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <i class="uil uil-create-dashboard"></i>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <i class="uil uil-user"></i>
+                    <h3>Customers</h3>
+                </a>
+                <a href="#">
+                    <i class="uil uil-clipboard-notes"></i>
+                    <h3>Orders</h3>
+                </a>
+                <a href="#">
+                    <i class="uil uil-analysis"></i>
+                    <h3>Analyics</h3>
+                </a>
+                <a href="#">
+                    <i class="uil uil-envelope-download"></i>
+                    <h3>Message</h3>
+                    <span class="message-count">26</span>
+                </a>
+                <a href="#">
+                    <i class="uil uil-clipboard-blank"></i>
+                    <h3>Products</h3>
+                </a>
+                <a href="#">
+                    <i class="uil uil-exclamation-circle"></i>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <i class="uil uil-setting"></i>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <i class="uil uil-plus"></i>
+                    <h3>Add Poroduct</h3>
+                </a>
+                <a href="#">
+                    <i class="uil uil-sign-out-alt"></i>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End Aside -->
+
+        <!-- Start Main -->
+        <main>
+            <h1>Dashboard</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="sales">
+                    <i class="uil uil-chart"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>$25,024</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='36' r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+
+                <div class="expenses">
+                    <i class="uil uil-graph-bar"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Expenses</h3>
+                            <h1>$14,160</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='36' r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>62%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+
+                <div class="income">
+                    <i class="uil uil-analysis"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Income</h3>
+                            <h1>$10,864</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='36' r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+            </div>
+
+            <div class="recent-orders">
+                <h2>Recent Order</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Product Number</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- From JavaScript -->
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+        </main>
+        <!-- End Main -->
+
+        <!-- Start Right Side -->
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <i class="uil uil-bars"></i>
+                </button>
+                <div class="theme-toggle">
+                    <i class="uil uil-brightness active"></i>
+                    <i class="uil uil-moon"></i>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Riyad</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="assets/images/member-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-updates">
+                <h2>Recent Updates</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="assets/images/member-2.png" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Mike Tyson</b> received his order of Night lion texh GPS drone.</p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="assets/images/member-2.png" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Mike Tyson</b> received his order of Night lion texh GPS drone.</p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="assets/images/member-2.png" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Mike Tyson</b> received his order of Night lion texh GPS drone.</p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sales-analics">
+                <h2>Sales Anaytics</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <i class="uil uil-shopping-cart"></i>
+                    </div>
+
+                    <div class="right">
+                        <div class="info">
+                            <h3>ONLINE ORDERS</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success">+39%</h5>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+
+                <div class="item offline">
+                    <div class="icon">
+                        <i class="uil uil-shopping-bag"></i>
+                    </div>
+
+                    <div class="right">
+                        <div class="info">
+                            <h3>OFFLINE ORDERS</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="danger">-17%</h5>
+                        <h3>1100</h3>
+                    </div>
+                </div>
+
+                <div class="item customer">
+                    <div class="icon">
+                        <i class="uil uil-user"></i>
+                    </div>
+
+                    <div class="right">
+                        <div class="info">
+                            <h3>NEW CUSTOMER</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success">+25%</h5>
+                        <h3>849</h3>
+                    </div>
+                </div>
+
+                <div class="item add-product">
+                    <div>
+                        <i class="uil uil-plus"></i>
+                        <h3>Add Product</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Right Side -->
+    </div>
+</body>
+<script src="assets/js/orders.js"></script>
+<script src="assets/js/main.js"></script>
+</html>
